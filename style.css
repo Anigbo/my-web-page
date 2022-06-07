@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    background-image: url("https://pbs.twimg.com/media/FTQ0NkvWAAAFIHy?format=jpg&name=medium");
+    background-color: #50C7C7;
+    height: 900px;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+   
+  }
+  header {
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+  h1 {
+    margin: 25px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  
+    
+  }
+  
+  a {
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    
+  }
+  
+  section {
+    border: none;
+    border-radius: none;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0.8;
+    box-shadow: 8px 4px white;
+   
+  }
+  .list {
+    list-style-type: none;
+  }
+  li {
+    line-height: 30px;
+  }
+  h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  aside img {
+    border-radius: 50%;
+    float: left;
+  }
+  
+  .skills {
+    height: 300px;
+  }
+  button {
+    border: none;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color: #c21d5c;
+    color: whitesmoke;
+    padding: 15px;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+     transition-duration: 0.4s;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  button:hover {
+    background-color: green;
+    
+  }
+  
+  footer {
+    margin: 20px;
+    margin-left: 150px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .code {
+    color: whitesmoke;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 10px;
+  
+  }
+  
+  @media (max-width: 800px) {
+    html {scroll-behavior: smooth;}
+    body {
+      width: 80%;
+      font-size: 20px;
+      line-height: 20px;
+      background-color: green;
+      height: 1500px;
+      
+    }
+    a {
+      float: hidden;
+      width: 50%;
+      margin-right: 50px;
+      
+      
+      }
+    main {
+      width: 100px;
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      margin: 20px;
+      margin-left: 50px;
+      margin-bottom: 0;
+    }
+  
+  aside img
+    {float: right;
+        margin-left: 200px;
+       padding-left: 20px;
+     
+     }
+  
+  button, .code {
+  margin: 10px;
+    padding: 5px;
+    
+  }
+  
+    footer {margin: 0;
+           padding: 0;
+            width: 100%;
+          }
+  }   
+  
