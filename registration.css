@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://netstorage-legit.akamaized.net/images/vllkyt1uk34lcqflgg.jpg?imwidth=720");
+    background-color: #50C7C7;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+     margin-left: auto;
+    width: 50%;
+    padding: 20px;
+    
+  }
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  form {
+   border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 350px;
+    margin-left: 100px;
+    padding: 20px;
+    line-height: 200%;
+    background-color:  #a6adad;
+    opacity: 0.9;
+    box-sizing: border-box;
+     box-shadow: 4px 6px gray;
+  }
+  
+  header {
+    margin-left: 120px;
+    color: whitesmoke;
+  }
+  input {
+    padding: 8px;
+    border: none;
+     border-radius: 10px;
+       outline: none;
+  }
+  
+  button {
+    margin-left: 7px;
+    margin: 12px;
+    padding: 8px;
+    border: none;
+    width: 80%;
+    font-size: 15px;
+    background-color: #c21d5c;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  button:hover {
+    background-color: #1dc23b;
+    border-radius: 50px;
+    transition: 0.4s;
+    padding: 20px;
+  }
+  
+  #gender {
+    padding: 9px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: gray;
+  }
+  #text {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  /*#first-name, #last-name, #phone-number, #gender, #country, #state-province, #email, #password, #com-pass
+  */
+  footer {
+    margin-left: 100px;
+    padding: 20px;
+  }
+  
+  
+  @media (max-width: 800px) {
+    html {
+      scroll-behavior: smooth;
+    }
+        body {width: 100%;
+             height: 1300px;
+             scroll-behavior: smooth;
+            }
+
+            .container {
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              
+            }
+        header {
+          margin: 0 auto;
+        
+        }
+            h1 {
+              margin: 0 auto;
+              margin-top: 20px;
+              padding: 10px;
+            }
+
+            nav {
+              margin-left: 0;
+              margin-top: 40px;
+              
+            }
+        a {
+      float: hidden;
+      margin: 60px;
+      margin-left: -10px;
+      font-size: 15px;
+      }
+  
+        form {width: 80%;
+             height: 750px;
+             margin: 0 auto;
+            }
+
+          input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px;
+            
+          }
+           
+          #gender {
+            margin-left: 10px;
+            width: 50%;
+            
+          }
+          
+            footer {
+              margin: 0 auto;
+            }
+        }
